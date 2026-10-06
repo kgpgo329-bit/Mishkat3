@@ -10,7 +10,8 @@ export class InMemoryReportStorage implements IReportStorage {
     try {
       const db = getFirestoreDb();
       const docRef = doc(db, 'reports', report.reportId);
-      setDoc(docRef, report).catch((err) => {
+      const cleanData = JSON.parse(JSON.stringify(report));
+      setDoc(docRef, cleanData).catch((err) => {
         console.warn(`[Firestore] Sync report ${report.reportId} warning:`, err?.message || err);
       });
     } catch (e: any) {

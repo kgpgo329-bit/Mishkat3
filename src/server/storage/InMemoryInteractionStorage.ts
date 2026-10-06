@@ -20,7 +20,8 @@ class InMemoryInteractionStorage {
     try {
       const db = getFirestoreDb();
       const docRef = doc(db, 'interactions', id);
-      setDoc(docRef, response).catch((err) => {
+      const cleanData = JSON.parse(JSON.stringify(response));
+      setDoc(docRef, cleanData).catch((err) => {
         console.warn(`[Firestore] Sync interaction ${id} warning:`, err?.message || err);
       });
     } catch (e: any) {

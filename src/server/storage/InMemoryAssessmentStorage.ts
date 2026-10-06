@@ -12,7 +12,8 @@ class InMemoryAssessmentStorage {
     try {
       const db = getFirestoreDb();
       const docRef = doc(db, 'assessments', id);
-      setDoc(docRef, record).catch((err) => {
+      const cleanData = JSON.parse(JSON.stringify(record));
+      setDoc(docRef, cleanData).catch((err) => {
         console.warn(`[Firestore] Sync assessment ${id} warning:`, err?.message || err);
       });
     } catch (e: any) {
