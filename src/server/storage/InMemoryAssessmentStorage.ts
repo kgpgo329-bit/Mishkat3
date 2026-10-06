@@ -1,10 +1,23 @@
 import { AssessmentRecord } from '../../shared/types/index.js';
+import { getFirestoreDb } from '../config/firebase.js';
+import { doc, setDoc } from 'firebase/firestore';
 
 class InMemoryAssessmentStorage {
   private store = new Map<string, AssessmentRecord>();
 
   set(id: string, record: AssessmentRecord): void {
     this.store.set(id, record);
+
+    // Persist to Cloud Firestore
+    try {
+      const db = getFirestoreDb();
+      const docRef = doc(db, 'assessments', id);
+      setDoc(docRef, record).catch((err) => {
+        console.warn(`[Firestore] Sync assessment ${id} warning:`, err?.message || err);
+      });
+    } catch (e: any) {
+      console.warn(`[Firestore] Assessment store initialization warning:`, e?.message || e);
+    }
   }
 
   get(id: string): AssessmentRecord | null {

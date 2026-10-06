@@ -1,0 +1,47 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function: validate string type and length
+    function isValidString(val, minLen, maxLen) {
+      return val is string && val.size() >= minLen && val.size() <= maxLen;
+    }
+
+    // 1. Interactions collection (Audit-trail of questions and grounded answers)
+    match /interactions/{interactionId} {
+      allow read: if true;
+      // Strictly control creation: must have valid interactionId, sessionId, and question
+      allow create: if request.resource.data.interactionId == interactionId
+                    && isValidString(request.resource.data.sessionId, 3, 128)
+                    && isValidString(request.resource.data.question, 1, 1000);
+      // Disallow public update or delete to preserve evidence immutability
+      allow update, delete: if false;
+    }
+
+    // 2. Assessments collection (Evaluation records and submission scores)
+    match /assessments/{assessmentId} {
+      allow read: if true;
+      // Allow creation with valid assessment structure
+      allow create: if request.resource.data.assessmentId == assessmentId
+                    && isValidString(request.resource.data.sessionId, 3, 128)
+                    && request.resource.data.questions is list;
+      // Allow updates only for submission answers and score completion for matching session
+      allow update: if request.resource.data.assessmentId == assessmentId
+                    && request.resource.data.sessionId == resource.data.sessionId;
+      allow delete: if false;
+    }
+
+    // 3. Knowledge Reports collection (Final synthesized evaluation report)
+    match /reports/{reportId} {
+      allow read: if true;
+      allow create: if request.resource.data.reportId == reportId
+                    && isValidString(request.resource.data.sessionId, 3, 128)
+                    && isValidString(request.resource.data.assessmentId, 3, 128);
+      allow update, delete: if false;
+    }
+
+    // Default catch-all: block all unmapped collections from read/write
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

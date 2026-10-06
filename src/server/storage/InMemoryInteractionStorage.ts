@@ -1,4 +1,6 @@
 import { AskResponse } from '../../shared/types/index.js';
+import { getFirestoreDb } from '../config/firebase.js';
+import { doc, setDoc } from 'firebase/firestore';
 
 class InMemoryInteractionStorage {
   private store = new Map<string, AskResponse>();
@@ -12,6 +14,17 @@ class InMemoryInteractionStorage {
     if (!currentList.includes(id)) {
       currentList.push(id);
       this.sessionIndex.set(sessionId, currentList);
+    }
+
+    // Persist to Cloud Firestore
+    try {
+      const db = getFirestoreDb();
+      const docRef = doc(db, 'interactions', id);
+      setDoc(docRef, response).catch((err) => {
+        console.warn(`[Firestore] Sync interaction ${id} warning:`, err?.message || err);
+      });
+    } catch (e: any) {
+      console.warn(`[Firestore] Interaction store initialization warning:`, e?.message || e);
     }
   }
 

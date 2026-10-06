@@ -1,15 +1,31 @@
 import { FinalReportRecord } from '../../shared/types/index.js';
 import { IReportStorage } from './IReportStorage.js';
+import { getFirestoreDb } from '../config/firebase.js';
+import { doc, setDoc } from 'firebase/firestore';
 
 export class InMemoryReportStorage implements IReportStorage {
   private reports = new Map<string, FinalReportRecord>();
 
+  private syncToFirestore(report: FinalReportRecord): void {
+    try {
+      const db = getFirestoreDb();
+      const docRef = doc(db, 'reports', report.reportId);
+      setDoc(docRef, report).catch((err) => {
+        console.warn(`[Firestore] Sync report ${report.reportId} warning:`, err?.message || err);
+      });
+    } catch (e: any) {
+      console.warn(`[Firestore] Report store initialization warning:`, e?.message || e);
+    }
+  }
+
   async saveReport(report: FinalReportRecord): Promise<void> {
     this.reports.set(report.reportId, report);
+    this.syncToFirestore(report);
   }
 
   set(report: FinalReportRecord): void {
     this.reports.set(report.reportId, report);
+    this.syncToFirestore(report);
   }
 
   async getReportById(sessionId: string, reportId: string): Promise<FinalReportRecord | null> {
