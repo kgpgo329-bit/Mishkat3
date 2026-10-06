@@ -1,0 +1,42 @@
+[
+  {
+    "sourceId": "src_quranpedia",
+    "name": "Quranpedia (موسوعة القرآن الكريم)",
+    "author": "مشروع موسوعة القرآن الكريم الرقمية",
+    "era": "المعاصر",
+    "category": "التفسير وعلوم القرآن",
+    "description": "موسوعة قرآنية رقمية شاملة توثق بيانات السور والتفاسير وأسباب النزول والمصاحف.",
+    "officialUrl": "https://quranpedia.net",
+    "isVerified": true
+  },
+  {
+    "sourceId": "src_dorar",
+    "name": "الدرر السنية (dorar.net)",
+    "author": "مؤسسة الدرر السنية بإشراف الشيخ علوي بن عبد القادر السقاف",
+    "era": "المعاصر",
+    "category": "الحديث والعقيدة والفقه",
+    "description": "موسوعة علمية إسلامية رائدة للحديث النبوي والعقيدة والفقه والمذاهب والأديان.",
+    "officialUrl": "https://dorar.net",
+    "isVerified": true
+  },
+  {
+    "sourceId": "src_islamic_content",
+    "name": "الجمهرة — موسوعة مفردات المحتوى الإسلامي",
+    "author": "مشروع المحتوى الإسلامي (islamic-content.com)",
+    "era": "المعاصر",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "description": "موسوعة إلكترونية شاملة لمفردات ومصطلحات ومعاجم المحتوى الإسلامي.",
+    "officialUrl": "https://islamic-content.com",
+    "isVerified": true
+  },
+  {
+    "sourceId": "src_dawa_center",
+    "name": "المستودع الدعوي الرقمي (dawa.center)",
+    "author": "المستودع الدعوي الرقمي",
+    "era": "المعاصر",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "description": "مستودع رقمي موثق للدراسات والملفات والمقالات والبحوث الدعوية والتاريخية.",
+    "officialUrl": "https://dawa.center",
+    "isVerified": true
+  }
+]

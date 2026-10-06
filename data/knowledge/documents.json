@@ -1,0 +1,691 @@
+[
+  {
+    "documentId": "doc_quranpedia_surah_1",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الفاتحة — أسباب النزول والتعريف",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 1,
+      "topic": "تفسير السور والآيات",
+      "officialUrl": "https://quranpedia.net/surah/1",
+      "crawledAt": "2026-10-05T19:39:26.421Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_112",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الإخلاص — التعريف وفضائل التوحيد",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 112,
+      "topic": "العقيدة والتوحيد",
+      "officialUrl": "https://quranpedia.net/surah/112",
+      "crawledAt": "2026-10-05T19:39:26.716Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1900",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — دلالة اسم الله الغفار",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1900",
+      "topic": "العقيدة والتوحيد",
+      "officialUrl": "https://islamic-content.com/t/1900",
+      "crawledAt": "2026-10-05T19:39:35.327Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1859",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — مادة معجمية إسلامية محققة",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1859",
+      "topic": "المفاهيم والمصطلحات الإسلامية",
+      "officialUrl": "https://islamic-content.com/t/1859",
+      "crawledAt": "2026-10-05T19:39:42.676Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10354",
+    "sourceId": "src_dawa_center",
+    "title": "المهارة في تحديد الهدف الدعوي في ضوء الكتاب والسنة",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10354",
+      "topic": "الموضوعات الدعوية العامة",
+      "officialUrl": "https://dawa.center/file/10354",
+      "crawledAt": "2026-10-05T19:39:46.985Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10353",
+    "sourceId": "src_dawa_center",
+    "title": "المسؤولية الدعوية لصناع المحتوى في وسائل التواصل الاجتماعي",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10353",
+      "topic": "الموضوعات الدعوية العامة",
+      "officialUrl": "https://dawa.center/file/10353",
+      "crawledAt": "2026-10-05T19:39:48.137Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_109",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الكافرون — البراءة من الشرك وإخلاص الدين",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 109,
+      "topic": "العقيدة والتوحيد",
+      "officialUrl": "https://quranpedia.net/surah/109",
+      "crawledAt": "2026-10-05T19:39:27.162Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_113",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الفلق — معاني الاستعاذة والبيان",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 113,
+      "topic": "تفسير السور والآيات",
+      "officialUrl": "https://quranpedia.net/surah/113",
+      "crawledAt": "2026-10-05T19:39:27.658Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_114",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الناس — ربوبية الله وعصمة المؤمن",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 114,
+      "topic": "العقيدة والتوحيد",
+      "officialUrl": "https://quranpedia.net/surah/114",
+      "crawledAt": "2026-10-05T19:39:28.197Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_106",
+    "sourceId": "src_quranpedia",
+    "title": "سورة قريش — عبادة رب البيت الحرام",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 106,
+      "topic": "الكعبة والقبلة",
+      "officialUrl": "https://quranpedia.net/surah/106",
+      "crawledAt": "2026-10-05T19:39:28.664Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_105",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الفيل — حماية الكعبة المشرفة وتاريخها",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 105,
+      "topic": "الكعبة والقبلة",
+      "officialUrl": "https://quranpedia.net/surah/105",
+      "crawledAt": "2026-10-05T19:39:29.067Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_2",
+    "sourceId": "src_quranpedia",
+    "title": "سورة البقرة — آيات تحويل القبلة والتوحيد",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 2,
+      "topic": "الكعبة والقبلة",
+      "officialUrl": "https://quranpedia.net/surah/2",
+      "crawledAt": "2026-10-05T19:39:29.543Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_3",
+    "sourceId": "src_quranpedia",
+    "title": "سورة آل عمران — أول بيت وضع للناس ومكانة الحرم",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 3,
+      "topic": "الكعبة والقبلة",
+      "officialUrl": "https://quranpedia.net/surah/3",
+      "crawledAt": "2026-10-05T19:39:30.081Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_17",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الإسراء — إعجاز القرآن وتحدي الإنس والجن",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 17,
+      "topic": "القرآن ومصدره",
+      "officialUrl": "https://quranpedia.net/surah/17",
+      "crawledAt": "2026-10-05T19:39:30.539Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_25",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الفرقان — تنزيل القرآن والرد على شبهات المشركين",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 25,
+      "topic": "الشبهات حول الإسلام",
+      "officialUrl": "https://quranpedia.net/surah/25",
+      "crawledAt": "2026-10-05T19:39:30.979Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_11",
+    "sourceId": "src_quranpedia",
+    "title": "سورة هود — تحدي القرآن بالحجة والبرهان",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 11,
+      "topic": "القرآن ومصدره",
+      "officialUrl": "https://quranpedia.net/surah/11",
+      "crawledAt": "2026-10-05T19:39:31.327Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_52",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الطور — دحض دعوى تأليف القرآن",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 52,
+      "topic": "القرآن ومصدره",
+      "officialUrl": "https://quranpedia.net/surah/52",
+      "crawledAt": "2026-10-05T19:39:31.770Z"
+    }
+  },
+  {
+    "documentId": "doc_quranpedia_surah_10",
+    "sourceId": "src_quranpedia",
+    "title": "سورة يونس — استحالة افتراء القرآن من دون الله",
+    "author": "مشروع موسوعة القرآن الكريم",
+    "category": "التفسير وعلوم القرآن",
+    "metadata": {
+      "surahNumber": 10,
+      "topic": "القرآن ومصدره",
+      "officialUrl": "https://quranpedia.net/surah/10",
+      "crawledAt": "2026-10-05T19:39:32.946Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1854",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — معنى التوحيد وحقيقته الشرعية",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1854",
+      "topic": "العقيدة والتوحيد",
+      "officialUrl": "https://islamic-content.com/t/1854",
+      "crawledAt": "2026-10-05T19:39:36.415Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1916",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — توحيد العبادة وإفراد الله بالخلق والأمر",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1916",
+      "topic": "العقيدة والتوحيد",
+      "officialUrl": "https://islamic-content.com/t/1916",
+      "crawledAt": "2026-10-05T19:39:37.196Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1934",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — بيان الشرك ومنافاته لأصل التوحيد",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1934",
+      "topic": "العقيدة والتوحيد",
+      "officialUrl": "https://islamic-content.com/t/1934",
+      "crawledAt": "2026-10-05T19:39:38.088Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1904",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — تعريف القرآن الكريم وخصائصه الإعجازية",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1904",
+      "topic": "القرآن ومصدره",
+      "officialUrl": "https://islamic-content.com/t/1904",
+      "crawledAt": "2026-10-05T19:39:38.699Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1909",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — الوحي الإلهي ومصدر الرسالة",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1909",
+      "topic": "القرآن ومصدره",
+      "officialUrl": "https://islamic-content.com/t/1909",
+      "crawledAt": "2026-10-05T19:39:39.118Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1922",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — السنة النبوية الشريفة وحجيتها",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1922",
+      "topic": "الحديث ومكانته",
+      "officialUrl": "https://islamic-content.com/t/1922",
+      "crawledAt": "2026-10-05T19:39:39.578Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1873",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — الحديث النبوي ودرجاته وقواعد الرواية",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1873",
+      "topic": "الحديث ومكانته",
+      "officialUrl": "https://islamic-content.com/t/1873",
+      "crawledAt": "2026-10-05T19:39:40.001Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1897",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — القبلة وحكم التوجه شطر المسجد الحرام",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1897",
+      "topic": "الكعبة والقبلة",
+      "officialUrl": "https://islamic-content.com/t/1897",
+      "crawledAt": "2026-10-05T19:39:40.474Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1944",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — الكعبة المشرفة وتوحيد التعبد لرب البيت",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1944",
+      "topic": "الكعبة والقبلة",
+      "officialUrl": "https://islamic-content.com/t/1944",
+      "crawledAt": "2026-10-05T19:39:40.957Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1950",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — الاجتهاد الفقهي وشروط النظر في الأدلة",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1950",
+      "topic": "اختلاف العلماء والاجتهاد",
+      "officialUrl": "https://islamic-content.com/t/1950",
+      "crawledAt": "2026-10-05T19:39:41.347Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1879",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — اختلاف العلماء ومقاصد رحمة التشريع",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1879",
+      "topic": "اختلاف العلماء والاجتهاد",
+      "officialUrl": "https://islamic-content.com/t/1879",
+      "crawledAt": "2026-10-05T19:39:41.737Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_1875",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — مقاصد الشريعة في الدعوة ونفي الإكراه",
+    "author": "مشروع الجمهرة للمحتوى الإسلامي",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "termId": "1875",
+      "topic": "انتشار الإسلام والسياق التاريخي",
+      "officialUrl": "https://islamic-content.com/t/1875",
+      "crawledAt": "2026-10-05T19:39:42.267Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10350",
+    "sourceId": "src_dawa_center",
+    "title": "المنهج العقلي واستخداماته في الدعوة من خلال القرآن الكريم والسنة النبوية",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10350",
+      "topic": "الشبهات حول الإسلام",
+      "officialUrl": "https://dawa.center/file/10350",
+      "crawledAt": "2026-10-05T19:39:43.970Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10352",
+    "sourceId": "src_dawa_center",
+    "title": "العلماء هم الدعاة — مكانة أهل العلم وأصول الاجتهاد",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10352",
+      "topic": "اختلاف العلماء والاجتهاد",
+      "officialUrl": "https://dawa.center/file/10352",
+      "crawledAt": "2026-10-05T19:39:44.931Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10345",
+    "sourceId": "src_dawa_center",
+    "title": "الدعوة إلى الله وعلاقتها بالاستماع إلى القرآن الكريم وتدبره",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10345",
+      "topic": "القرآن ومصدره",
+      "officialUrl": "https://dawa.center/file/10345",
+      "crawledAt": "2026-10-05T19:39:45.724Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10349",
+    "sourceId": "src_dawa_center",
+    "title": "المناهج الدعوية وتطبيقاتها النبوية — الحكمة والموعظة الحسنة",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10349",
+      "topic": "انتشار الإسلام والسياق التاريخي",
+      "officialUrl": "https://dawa.center/file/10349",
+      "crawledAt": "2026-10-05T19:39:46.292Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10347",
+    "sourceId": "src_dawa_center",
+    "title": "سيرة أم المؤمنين أم سلمة رضي الله عنها وجهودها الدعوية",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10347",
+      "topic": "الموضوعات الدعوية العامة",
+      "officialUrl": "https://dawa.center/file/10347",
+      "crawledAt": "2026-10-05T19:39:49.686Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10346",
+    "sourceId": "src_dawa_center",
+    "title": "دور الدعاة إلى الله بالحكمة — الحسن البصري أنموذجاً",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10346",
+      "topic": "الموضوعات الدعوية العامة",
+      "officialUrl": "https://dawa.center/file/10346",
+      "crawledAt": "2026-10-05T19:39:50.668Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10348",
+    "sourceId": "src_dawa_center",
+    "title": "الكوكب الدري في مناقب المربين وتاريخ الدعوة",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10348",
+      "topic": "انتشار الإسلام والسياق التاريخي",
+      "officialUrl": "https://dawa.center/file/10348",
+      "crawledAt": "2026-10-05T19:39:51.213Z"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10351",
+    "sourceId": "src_dawa_center",
+    "title": "عيون المآثر في تراجم أهل العلم ومآثرهم الدعوية",
+    "author": "المستودع الدعوي الرقمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "fileId": "10351",
+      "topic": "اختلاف العلماء والاجتهاد",
+      "officialUrl": "https://dawa.center/file/10351",
+      "crawledAt": "2026-10-05T19:39:52.120Z"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_692",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — غير المسلمين وحقوقهم والبر بهم في الإسلام",
+    "author": "مشروع المحتوى الإسلامي (islamic-content.com)",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "topic": "الشبهات حول الإسلام",
+      "officialUrl": "https://islamic-content.com/t/692",
+      "crawledAt": "2026-10-05T20:32:53.797Z",
+      "step": "5B_targeted_expansion"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_699",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — الحكمة في الدعوة ومنهج البلاغ في القرآن",
+    "author": "مشروع المحتوى الإسلامي (islamic-content.com)",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "topic": "انتشار الإسلام والسياق التاريخي",
+      "officialUrl": "https://islamic-content.com/t/699",
+      "crawledAt": "2026-10-05T20:32:54.164Z",
+      "step": "5B_targeted_expansion"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_700",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — الموعظة الحسنة والرفق بالمدعوين ونبذ الإكراه",
+    "author": "مشروع المحتوى الإسلامي (islamic-content.com)",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "topic": "انتشار الإسلام والسياق التاريخي",
+      "officialUrl": "https://islamic-content.com/t/700",
+      "crawledAt": "2026-10-05T20:32:54.479Z",
+      "step": "5B_targeted_expansion"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_701",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — المجادلة بالتي هي أحسن والحجة والبيان",
+    "author": "مشروع المحتوى الإسلامي (islamic-content.com)",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "topic": "الشبهات حول الإسلام",
+      "officialUrl": "https://islamic-content.com/t/701",
+      "crawledAt": "2026-10-05T20:32:54.869Z",
+      "step": "5B_targeted_expansion"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_764",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — الغزوات والسرايا والبعوث ومقاصد مشروعية القتال للدفاع",
+    "author": "مشروع المحتوى الإسلامي (islamic-content.com)",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "topic": "الشبهات حول الإسلام",
+      "officialUrl": "https://islamic-content.com/t/764",
+      "crawledAt": "2026-10-05T20:32:55.305Z",
+      "step": "5B_targeted_expansion"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_813",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — غزوة الحديبية وصلح المسالمة وانتشار الإسلام سلماً",
+    "author": "مشروع المحتوى الإسلامي (islamic-content.com)",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "topic": "انتشار الإسلام والسياق التاريخي",
+      "officialUrl": "https://islamic-content.com/t/813",
+      "crawledAt": "2026-10-05T20:32:55.755Z",
+      "step": "5B_targeted_expansion"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_833",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — فتح مكة والعفو العام ودخول الناس في الدين أفواجاً",
+    "author": "مشروع المحتوى الإسلامي (islamic-content.com)",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "topic": "انتشار الإسلام والسياق التاريخي",
+      "officialUrl": "https://islamic-content.com/t/833",
+      "crawledAt": "2026-10-05T20:32:56.543Z",
+      "step": "5B_targeted_expansion"
+    }
+  },
+  {
+    "documentId": "doc_islamic_content_term_2200",
+    "sourceId": "src_islamic_content",
+    "title": "الجمهرة — رحمة النبي صلى الله عليه وسلم وشفقته ونفي الإكراه",
+    "author": "مشروع المحتوى الإسلامي (islamic-content.com)",
+    "category": "معاجم ومصطلحات المحتوى الإسلامي",
+    "metadata": {
+      "topic": "الشبهات حول الإسلام",
+      "officialUrl": "https://islamic-content.com/t/2200",
+      "crawledAt": "2026-10-05T20:32:56.906Z",
+      "step": "5B_targeted_expansion"
+    }
+  },
+  {
+    "documentId": "doc_dawa_center_file_10344",
+    "sourceId": "src_dawa_center",
+    "title": "علماء الغرب يدخلون الإسلام — دراسة في الاقتناع العقلي دون إكراه",
+    "author": "محمد حلمي",
+    "category": "موضوعات إسلامية عامة والدعوة",
+    "metadata": {
+      "topic": "الشبهات حول الإسلام",
+      "officialUrl": "https://dawa.center/file/10344",
+      "crawledAt": "2026-10-05T20:32:57.754Z",
+      "step": "5B_targeted_expansion"
+    }
+  },
+  {
+    "documentId": "doc_qp_tafsir_ikhlas_muyassar",
+    "sourceId": "src_quranpedia",
+    "title": "تفسير سورة الإخلاص — التفسير الميسر",
+    "author": "مجمع الملك فهد لطباعة المصحف الشريف — التفسير الميسر",
+    "category": "التفسير وعلوم القرآن",
+    "sourceUrl": "https://quranpedia.net/surah/1/112/book/2012.md",
+    "metadata": {
+      "topic": "العقيدة والتوحيد",
+      "bookName": "التفسير الميسر",
+      "officialUrl": "https://quranpedia.net/surah/1/112/book/2012.md"
+    }
+  },
+  {
+    "documentId": "doc_qp_tafsir_quraysh_muyassar",
+    "sourceId": "src_quranpedia",
+    "title": "تفسير سورة قريش — عبادة رب البيت الحرام والكعبة المشرفة",
+    "author": "مجمع الملك فهد لطباعة المصحف الشريف — التفسير الميسر",
+    "category": "التفسير وعلوم القرآن",
+    "sourceUrl": "https://quranpedia.net/surah/1/106/book/2012.md",
+    "metadata": {
+      "topic": "الكعبة والقبلة",
+      "bookName": "التفسير الميسر",
+      "officialUrl": "https://quranpedia.net/surah/1/106/book/2012.md"
+    }
+  },
+  {
+    "documentId": "doc_qp_tafsir_qibla_muyassar",
+    "sourceId": "src_quranpedia",
+    "title": "سورة البقرة — تحويل القبلة إلى المسجد الحرام والتوجه شطر الكعبة",
+    "author": "مجمع الملك فهد لطباعة المصحف الشريف — التفسير الميسر",
+    "category": "التفسير وعلوم القرآن",
+    "sourceUrl": "https://quranpedia.net/surah/1/2/book/2012.md",
+    "metadata": {
+      "topic": "الكعبة والقبلة",
+      "bookName": "التفسير الميسر",
+      "officialUrl": "https://quranpedia.net/surah/1/2/book/2012.md"
+    }
+  },
+  {
+    "documentId": "doc_qp_tafsir_ikhtilaf_al_anbiya",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الأنبياء والنساء — اختلاف الأحكام وتنوع الاجتهاد والأفهام مع اتحاد المصدر",
+    "author": "مجمع الملك فهد لطباعة المصحف الشريف — التفسير الميسر",
+    "category": "التفسير وعلوم القرآن",
+    "sourceUrl": "https://quranpedia.net/surah/1/21/book/2012.md",
+    "metadata": {
+      "topic": "اختلاف العلماء والاجتهاد",
+      "bookName": "التفسير الميسر",
+      "officialUrl": "https://quranpedia.net/surah/1/21/book/2012.md"
+    }
+  },
+  {
+    "documentId": "doc_qp_tafsir_quran_revelation",
+    "sourceId": "src_quranpedia",
+    "title": "سورة الفرقان ويونس — تنزيل القرآن من الله تعالى ونفي كونه من تأليف البشر",
+    "author": "مجمع الملك فهد لطباعة المصحف الشريف — التفسير الميسر",
+    "category": "التفسير وعلوم القرآن",
+    "sourceUrl": "https://quranpedia.net/surah/1/25/book/2012.md",
+    "metadata": {
+      "topic": "القرآن ومصدره",
+      "bookName": "التفسير الميسر",
+      "officialUrl": "https://quranpedia.net/surah/1/25/book/2012.md"
+    }
+  },
+  {
+    "documentId": "doc_qp_tafsir_no_compulsion_jihad",
+    "sourceId": "src_quranpedia",
+    "title": "القرآن الكريم — لا إكراه في الدين والدعوة بالحكمة ومشروعية القتال لدفع الظلم",
+    "author": "مجمع الملك فهد لطباعة المصحف الشريف — التفسير الميسر",
+    "category": "التفسير وعلوم القرآن",
+    "sourceUrl": "https://quranpedia.net/surah/1/2/book/2012.md",
+    "metadata": {
+      "topic": "انتشار الإسلام والسياق التاريخي",
+      "bookName": "التفسير الميسر",
+      "officialUrl": "https://quranpedia.net/surah/1/2/book/2012.md"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "A": {
+    "id": "A",
+    "question": "لماذا يعبد المسلمون الكعبة؟",
+    "sufficiencyState": "PARTIAL",
+    "answerBehavior": "PARTIAL_WITH_NOTICE",
+    "citationsCount": 0,
+    "citedChunks": [],
+    "groundingStatus": "UNGROUNDED_DOWNGRADED",
+    "answerSnippet": "لم أجد في المصادر المعتمدة المتاحة أدلة كافية لصياغة إجابة موثوقة عن هذا السؤال."
+  },
+  "B": {
+    "id": "B",
+    "question": "هل القرآن من تأليف محمد ﷺ؟",
+    "sufficiencyState": "SUFFICIENT",
+    "answerBehavior": "ANSWERED",
+    "citationsCount": 1,
+    "citedChunks": [
+      "chk_ic_doc_1850_0"
+    ],
+    "groundingStatus": "GROUNDED",
+    "answerSnippet": "القرآن الكريم ليس من تأليف محمد صلى الله عليه وسلم ولا يُمثّل شيئاً اختلقه بشر"
+  },
+  "C": {
+    "id": "C",
+    "question": "هل الإسلام انتشر بالسيف؟",
+    "sufficiencyState": "INSUFFICIENT",
+    "answerBehavior": "ABSTAINED",
+    "citationsCount": 0,
+    "citedChunks": [],
+    "groundingStatus": "GROUNDED",
+    "answerSnippet": "لم أجد في المصادر المعتمدة المتاحة أدلة كافية لصياغة إجابة موثوقة عن هذا السؤال."
+  },
+  "D": {
+    "id": "D",
+    "question": "لماذا توجد أحكام مختلفة بين العلماء؟",
+    "sufficiencyState": "PARTIAL",
+    "answerBehavior": "PARTIAL_WITH_NOTICE",
+    "citationsCount": 1,
+    "citedChunks": [
+      "chk_doc_qp_tafsir_ikhtilaf_al_anbiya_2"
+    ],
+    "groundingStatus": "GROUNDED",
+    "answerSnippet": "تنبيه: المصادر المعتمدة المتوفرة حالياً تجيب جزئياً عن السؤال، ولم تتوفر تغطية كافية لجميع جوانبه."
+  },
+  "E": {
+    "id": "E",
+    "question": "ما معنى التوحيد؟",
+    "sufficiencyState": "PARTIAL",
+    "answerBehavior": "PARTIAL_WITH_NOTICE",
+    "citationsCount": 1,
+    "citedChunks": [
+      "chk_doc_islamic_content_term_1859_2"
+    ],
+    "groundingStatus": "GROUNDED",
+    "answerSnippet": "معنى اسم (الإله) هو المألوه؛ أي المستحق لأن يُعبَد، وهو يدل على استحقاق الله جل وعلا للعبادة بما له "
+  },
+  "F": {
+    "id": "F",
+    "question": "ما تفسير سورة الإخلاص؟",
+    "sufficiencyState": "PARTIAL",
+    "answerBehavior": "PARTIAL_WITH_NOTICE",
+    "citationsCount": 1,
+    "citedChunks": [
+      "chk_doc_qp_tafsir_ikhlas_muyassar_0"
+    ],
+    "groundingStatus": "GROUNDED",
+    "answerSnippet": "تنبيه: المصادر المعتمدة المتوفرة حالياً تجيب جزئياً عن السؤال، ولم تتوفر تغطية كافية لجميع جوانبه.\n\n"
+  }
+}
