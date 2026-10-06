@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { config } from '../config/config.js';
 import { KnowledgeChunk } from '../../shared/types/index.js';
 
@@ -22,9 +23,30 @@ export class EmbeddingService {
   }) {
     this.apiKey = options?.apiKey ?? config.gemini.apiKey ?? process.env.GEMINI_API_KEY ?? '';
     this.model = options?.model ?? config.gemini.embeddingModel ?? 'gemini-embedding-001';
-    this.cacheFilePath =
-      options?.cacheFilePath ??
-      path.resolve(process.cwd(), 'data', 'knowledge', 'embeddings_cache.json');
+
+    if (options?.cacheFilePath) {
+      this.cacheFilePath = options.cacheFilePath;
+    } else {
+      const __filename = fileURLToPath(import.meta.url);
+      const __dirname = path.dirname(__filename);
+
+      const candidates = [
+        path.resolve(process.cwd(), 'data', 'knowledge', 'embeddings_cache.json'),
+        path.resolve(__dirname, '../../../../data/knowledge/embeddings_cache.json'),
+        path.resolve(__dirname, '../../../data/knowledge/embeddings_cache.json'),
+        path.resolve(__dirname, '../../data/knowledge/embeddings_cache.json'),
+      ];
+
+      let resolvedPath = candidates[0];
+      for (const cand of candidates) {
+        if (fs.existsSync(cand)) {
+          resolvedPath = cand;
+          break;
+        }
+      }
+
+      this.cacheFilePath = resolvedPath;
+    }
 
     this.available = Boolean(this.apiKey && this.apiKey.trim().length > 0);
     this.loadCache();

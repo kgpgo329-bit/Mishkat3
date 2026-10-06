@@ -10,6 +10,14 @@ import { specialistRouter } from './specialist.route.js';
 
 export const apiRouter = Router();
 
+apiRouter.get('/', (_req, res) => {
+  res.json({
+    status: 'healthy',
+    platform: 'Mishkat Islamic UI Platform MVP',
+    timestamp: new Date().toISOString(),
+  });
+});
+
 apiRouter.get('/health', (_req, res) => {
   res.json({
     status: 'healthy',

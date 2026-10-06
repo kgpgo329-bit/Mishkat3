@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import {
   TrustedSource,
   KnowledgeDocument,
@@ -37,7 +38,30 @@ export class LocalJsonKnowledgeRepository
   private hashToChunkId: Map<string, string> = new Map();
 
   constructor(config?: LocalRepositoryConfig) {
-    this.dataDir = config?.dataDir || path.resolve(process.cwd(), 'data', 'knowledge');
+    if (config?.dataDir) {
+      this.dataDir = config.dataDir;
+    } else {
+      const __filename = fileURLToPath(import.meta.url);
+      const __dirname = path.dirname(__filename);
+
+      const candidates = [
+        path.resolve(process.cwd(), 'data', 'knowledge'),
+        path.resolve(__dirname, '../../../../data/knowledge'),
+        path.resolve(__dirname, '../../../data/knowledge'),
+        path.resolve(__dirname, '../../data/knowledge'),
+      ];
+
+      let resolvedDir = candidates[0];
+      for (const cand of candidates) {
+        if (fs.existsSync(path.join(cand, 'chunks.json'))) {
+          resolvedDir = cand;
+          break;
+        }
+      }
+
+      this.dataDir = resolvedDir;
+    }
+
     this.sourcesFile = path.join(this.dataDir, 'sources.json');
     this.documentsFile = path.join(this.dataDir, 'documents.json');
     this.chunksFile = path.join(this.dataDir, 'chunks.json');
@@ -46,7 +70,11 @@ export class LocalJsonKnowledgeRepository
 
   private initStorage(): void {
     if (!fs.existsSync(this.dataDir)) {
-      fs.mkdirSync(this.dataDir, { recursive: true });
+      try {
+        fs.mkdirSync(this.dataDir, { recursive: true });
+      } catch {
+        // Read-only filesystem
+      }
     }
 
     if (fs.existsSync(this.sourcesFile)) {
@@ -88,18 +116,30 @@ export class LocalJsonKnowledgeRepository
   }
 
   private persistSources(): void {
-    const list = Array.from(this.sourcesCache.values());
-    fs.writeFileSync(this.sourcesFile, JSON.stringify(list, null, 2), 'utf-8');
+    try {
+      const list = Array.from(this.sourcesCache.values());
+      fs.writeFileSync(this.sourcesFile, JSON.stringify(list, null, 2), 'utf-8');
+    } catch (err) {
+      console.warn('Could not persist sources (read-only filesystem):', err);
+    }
   }
 
   private persistDocuments(): void {
-    const list = Array.from(this.documentsCache.values());
-    fs.writeFileSync(this.documentsFile, JSON.stringify(list, null, 2), 'utf-8');
+    try {
+      const list = Array.from(this.documentsCache.values());
+      fs.writeFileSync(this.documentsFile, JSON.stringify(list, null, 2), 'utf-8');
+    } catch (err) {
+      console.warn('Could not persist documents (read-only filesystem):', err);
+    }
   }
 
   private persistChunks(): void {
-    const list = Array.from(this.chunksCache.values());
-    fs.writeFileSync(this.chunksFile, JSON.stringify(list, null, 2), 'utf-8');
+    try {
+      const list = Array.from(this.chunksCache.values());
+      fs.writeFileSync(this.chunksFile, JSON.stringify(list, null, 2), 'utf-8');
+    } catch (err) {
+      console.warn('Could not persist chunks (read-only filesystem):', err);
+    }
   }
 
   // --- ITrustedSourceRepository ---
