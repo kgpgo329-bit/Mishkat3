@@ -12,7 +12,9 @@
     "build": "npm run build:client && npm run build:server",
     "start": "node dist/server/index.js",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "deploy:hosting": "npx firebase-tools deploy --only hosting",
+    "deploy:all": "npx firebase-tools deploy"
   },
   "dependencies": {
     "cors": "^2.8.5",
